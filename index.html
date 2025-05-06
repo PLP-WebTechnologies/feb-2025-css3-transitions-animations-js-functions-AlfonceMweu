@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Animations Demo</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Animation Preferences</h1>
+        
+        <div class="preference-panel">
+            <div class="toggle-group">
+                <label for="animationToggle">Enable Animations:</label>
+                <input type="checkbox" id="animationToggle">
+            </div>
+            
+            <div class="toggle-group">
+                <label for="themeToggle">Dark Mode:</label>
+                <input type="checkbox" id="themeToggle">
+            </div>
+            
+            <button id="actionButton" class="animated-button">Click Me!</button>
+        </div>
+        
+        <div class="animation-box" id="animatedBox"></div>
+        
+        <div class="image-gallery">
+            <img src="https://images.pexels.com/photos/5483240/pexels-photo-5483240.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Cybersecurity" class="gallery-image">
+            <img src="https://images.pexels.com/photos/5380642/pexels-photo-5380642.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Set up" class="gallery-image">
+            <img src="https://images.pexels.com/photos/2036656/pexels-photo-2036656.jpeg?auto=compress&cs=tinysrgb&w=600" alt="You have hacked!" class="gallery-image">
+        </div>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
